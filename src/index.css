@@ -1,11 +1,93 @@
 body {
-  margin: 0;
+  margin: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form {
+  background-color: lightblue;
+  min-width: 250px;
+  margin: 10px;
+  padding: 1%;
+}
+
+.form * {
+  line-height: 2;
+  margin: 1%;
+}
+
+.meishi{
+  width: 400px;
+  height: 242px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.meishiTop {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.meishiTopText {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.companyName {
+  font-size: 120%;
+}
+
+.name {
+  font-size: 200%;
+  font-weight: bold;
+
+}
+
+.addressDiv {
+  text-align: center;
+  font-size: 80%;
+}
+
+.emailPhoneDiv {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.meishiImg{
+  margin-left: 5px;
+  max-height: 100px;
+}
+
+footer {
+  width: 100%;
+  font-size: 80%;
+  text-align: center;
+  line-height: 3;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
