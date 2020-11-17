@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-meishi/static/css/main.af14c1ec.chunk.css",
+    "main.js": "/my-meishi/static/js/main.1b797f49.chunk.js",
+    "main.js.map": "/my-meishi/static/js/main.1b797f49.chunk.js.map",
+    "runtime-main.js": "/my-meishi/static/js/runtime-main.e81dc600.js",
+    "runtime-main.js.map": "/my-meishi/static/js/runtime-main.e81dc600.js.map",
+    "static/js/2.2d454eb2.chunk.js": "/my-meishi/static/js/2.2d454eb2.chunk.js",
+    "static/js/2.2d454eb2.chunk.js.map": "/my-meishi/static/js/2.2d454eb2.chunk.js.map",
+    "index.html": "/my-meishi/index.html",
+    "static/css/main.af14c1ec.chunk.css.map": "/my-meishi/static/css/main.af14c1ec.chunk.css.map",
+    "static/js/2.2d454eb2.chunk.js.LICENSE.txt": "/my-meishi/static/js/2.2d454eb2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e81dc600.js",
+    "static/js/2.2d454eb2.chunk.js",
+    "static/css/main.af14c1ec.chunk.css",
+    "static/js/main.1b797f49.chunk.js"
+  ]
+}
